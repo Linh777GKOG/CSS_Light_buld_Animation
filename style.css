@@ -12,3 +12,16 @@ body {
   min-height: 100vh;
   background: #222;
 }
+
+.box {
+  position: relative;
+  width: 500px;
+  height: 500px;
+}
+
+.box span {
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.1);
+  transform: rotate(calc(45deg * var(--i)));
+}
